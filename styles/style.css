@@ -1,0 +1,67 @@
+.navbar /* Espacement des lettres de 1px */
+{
+  letter-spacing: 1px;
+}
+
+footer
+{
+  background-color: lightslategrey;
+  padding: 25px;
+}
+
+.center /* Décalage du logo du jumbotron au centre */
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.logo-menu /* Décalage du logo du menu au centre */
+{
+  display: block;
+  margin-top: 10px;
+  margin-left: 40px;
+  width: 50%;
+}
+
+.search /* Formulaire de recherche dans le menu */
+{
+  width: 200px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.carousel-inner img
+{
+  width: 100%;
+  margin: auto;
+  min-height: 200px;
+}
+
+/* Modifications lorsque la fenêtre est inférieure à 767 px */
+@media (max-width: 767px)
+{
+  .carousel-caption /* Disparition du titre et de la description du carousel */
+  {
+      display: none; 
+  }
+
+  .logo-menu /* Réduction de la taille et alignement du logo du menu */
+  {
+    margin-left: 10px;
+    margin-top: 8px;
+    max-width: 80px;
+  }
+
+  .jumbotron /* Décalage du jumbotron vers le haut */
+  {
+    margin-top: -18px;
+  }
+
+  .search
+  {
+    width: 300px;
+    margin-bottom: 5px;
+  }
+}
